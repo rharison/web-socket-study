@@ -1,0 +1,30 @@
+{
+  "name": "web-socket-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rharison/web-socket-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rharison/web-socket-study/issues"
+  },
+  "homepage": "https://github.com/rharison/web-socket-study#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
